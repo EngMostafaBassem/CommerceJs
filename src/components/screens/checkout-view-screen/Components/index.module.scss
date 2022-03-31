@@ -1,0 +1,31 @@
+.textTitle {
+  text-align: center;
+  margin: 3rem;
+  color: #555;
+}
+/* cart summary styles*/
+.cartSummaryContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .cartSummaryInfo {
+    .cartSummaryTitle {
+      font-weight: 500;
+    }
+    .cartSummaryQty {
+      color: gray;
+      font-weight: 400;
+    }
+  }
+}
+.summaryTotalContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .summaryTotalLabel {
+    font-size: 1.1rem;
+  }
+  .summaryTotalPrice {
+    font-weight: bold;
+  }
+}
